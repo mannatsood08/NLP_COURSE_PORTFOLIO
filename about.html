@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Course | NLP Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+    
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">NLP Portfolio</a>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link active">About the Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="objectives.html" class="nav-link">Learning Objectives</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Units</a>
+                        <div class="dropdown-content">
+                            <a href="unit1.html">Unit 1</a>
+                            <a href="unit2.html">Unit 2</a>
+                            <a href="unit3.html">Unit 3</a>
+                            <a href="unit4.html">Unit 4</a>
+                            <a href="unit5.html">Unit 5</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reflection.html" class="nav-link">Reflection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="achievements.html" class="nav-link">Achievements</a>
+                    </li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h1 class="fade-in">About the Course</h1>
+            
+            <div class="about-section fade-in">
+                <div class="about-content">
+                    <h2>Natural Language Processing: An Overview</h2>
+                    <p>Natural Language Processing represents a critical domain within computational linguistics and artificial intelligence, focusing on the development of systems capable of processing, analyzing, and generating human language. This interdisciplinary field bridges the gap between computational methods and linguistic theory, enabling machines to extract semantic meaning from textual data.</p>
+                    
+                    <h2>Curriculum Structure</h2>
+                    <p>This course delivers a systematic introduction to Natural Language Processing methodologies, progressing from foundational linguistic preprocessing techniques to advanced neural network architectures. The pedagogical approach emphasizes both theoretical comprehension and practical implementation, ensuring students develop both conceptual understanding and hands-on expertise.</p>
+                    
+                    <h2>Core Competencies</h2>
+                    <ul>
+                        <li>Text preprocessing methodologies (tokenization, stemming, lemmatization)</li>
+                        <li>Syntactic parsing and semantic interpretation</li>
+                        <li>Distributional semantics and embedding representations</li>
+                        <li>Neural architectures for sequence modeling</li>
+                        <li>Production deployment of NLP systems</li>
+                    </ul>
+                    
+                    <h2>Learning Objectives</h2>
+                    <p>This course is designed to equip students with a comprehensive understanding of computational language processing mechanisms. The curriculum emphasizes modern transformer-based architectures and their practical applications in real-world scenarios. Students develop implementation skills necessary for constructing production-ready NLP systems and contributing to advancing this rapidly evolving domain.</p>
+                </div>
+                
+                <div class="about-image">
+                    <svg width="400" height="400" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Abstract NLP Illustration -->
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#EBD4EF" />
+                                <stop offset="100%" stop-color="#C6DEF1" />
+                            </linearGradient>
+                            <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#FFD6A5" />
+                                <stop offset="100%" stop-color="#B8E0D2" />
+                            </linearGradient>
+                        </defs>
+                        
+                        <!-- Brain outline -->
+                        <path d="M300,100 C420,100 500,200 500,300 C500,400 420,500 300,500 C180,500 100,400 100,300 C100,200 180,100 300,100 Z" fill="none" stroke="url(#grad1)" stroke-width="8" />
+                        
+                        <!-- Neural network connections -->
+                        <circle cx="200" cy="200" r="15" fill="#EBD4EF" />
+                        <circle cx="300" cy="180" r="15" fill="#FFD6A5" />
+                        <circle cx="400" cy="200" r="15" fill="#B8E0D2" />
+                        <circle cx="180" cy="300" r="15" fill="#C6DEF1" />
+                        <circle cx="300" cy="300" r="15" fill="#EBD4EF" />
+                        <circle cx="420" cy="300" r="15" fill="#FFD6A5" />
+                        <circle cx="200" cy="400" r="15" fill="#B8E0D2" />
+                        <circle cx="300" cy="420" r="15" fill="#C6DEF1" />
+                        <circle cx="400" cy="400" r="15" fill="#EBD4EF" />
+                        
+                        <!-- Connections -->
+                        <line x1="200" y1="200" x2="300" y2="180" stroke="#EBD4EF" stroke-width="2" />
+                        <line x1="300" y1="180" x2="400" y2="200" stroke="#FFD6A5" stroke-width="2" />
+                        <line x1="200" y1="200" x2="180" y2="300" stroke="#B8E0D2" stroke-width="2" />
+                        <line x1="300" y1="180" x2="300" y2="300" stroke="#C6DEF1" stroke-width="2" />
+                        <line x1="400" y1="200" x2="420" y2="300" stroke="#EBD4EF" stroke-width="2" />
+                        <line x1="180" y1="300" x2="200" y2="400" stroke="#FFD6A5" stroke-width="2" />
+                        <line x1="300" y1="300" x2="300" y2="420" stroke="#B8E0D2" stroke-width="2" />
+                        <line x1="420" y1="300" x2="400" y2="400" stroke="#C6DEF1" stroke-width="2" />
+                        <line x1="200" y1="400" x2="300" y2="420" stroke="#EBD4EF" stroke-width="2" />
+                        <line x1="300" y1="420" x2="400" y2="400" stroke="#FFD6A5" stroke-width="2" />
+                        
+                        <!-- Text elements -->
+                        <text x="250" y="150" font-family="Poppins" font-size="24" fill="#333">NLP</text>
+                        <text x="220" y="350" font-family="Poppins" font-size="18" fill="#333">Language</text>
+                        <text x="320" y="250" font-family="Poppins" font-size="18" fill="#333">AI</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.41 15.41L12 10.83L16.59 15.41L18 14L12 8L6 14L7.41 15.41Z" fill="currentColor"/>
+        </svg>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>© Mannat Sood | NLP Course Portfolio</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

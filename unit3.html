@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 3 - Semantic and Discourse Analysis | NLP Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+    
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">NLP Portfolio</a>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About the Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="objectives.html" class="nav-link">Learning Objectives</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link active">Units</a>
+                        <div class="dropdown-content">
+                            <a href="unit1.html">Unit 1</a>
+                            <a href="unit2.html">Unit 2</a>
+                            <a href="unit3.html">Unit 3</a>
+                            <a href="unit4.html">Unit 4</a>
+                            <a href="unit5.html">Unit 5</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reflection.html" class="nav-link">Reflection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="achievements.html" class="nav-link">Achievements</a>
+                    </li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Unit Content -->
+    <section>
+        <div class="container">
+            <div class="unit-header fade-in">
+                <div class="unit-icon">
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM9.5 16.5L16.5 12L9.5 7.5V16.5Z" fill="#B8E0D2"/>
+                    </svg>
+                </div>
+                <h1>Unit 3 — Semantic and Discourse Analysis</h1>
+                <p>Duration: 9 Hours</p>
+            </div>
+            
+            <div class="unit-content fade-in">
+                <p>This unit delves into the meaning of language, exploring how we can represent and extract semantic information from text. It also covers discourse analysis, which examines how sentences connect to form coherent text.</p>
+                
+                <h2>Topics Covered</h2>
+                <ul class="unit-topics">
+                    <li>Representing Meaning: Formal approaches to capturing semantics in language</li>
+                    <li>Lexical Semantics: Understanding the meaning of words and their relationships</li>
+                    <li>Word Senses: Identifying different meanings of the same word in different contexts</li>
+                    <li>Word Sense Disambiguation (WSD): Techniques to determine the correct sense of a word</li>
+                    <li>Word Embeddings: Vector representations of words that capture semantic relationships
+                        <ul>
+                            <li>Word2Vec: Neural network-based approach to word embeddings</li>
+                            <li>Continuous Bag of Words (CBOW): Predicting a word from its context</li>
+                            <li>Skip-gram: Predicting context words from a target word</li>
+                            <li>Global Vectors (GloVe): Combining global statistics with local context</li>
+                        </ul>
+                    </li>
+                    <li>Discourse Segmentation: Breaking text into coherent discourse units</li>
+                    <li>Coreference Resolution: Identifying when different expressions refer to the same entity</li>
+                </ul>
+                
+                <h2>Key Takeaways</h2>
+                <p>In this unit, I learned how to represent and analyze the meaning of words and sentences, as well as how to capture relationships between different parts of a text. Word embeddings were particularly fascinating as they allow us to represent words as vectors in a way that captures semantic relationships. These techniques are essential for many advanced NLP applications, including question answering, information retrieval, and text summarization.</p>
+                
+                <a href="objectives.html" class="back-link">← Back to Learning Objectives</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.41 15.41L12 10.83L16.59 15.41L18 14L12 8L6 14L7.41 15.41Z" fill="currentColor"/>
+        </svg>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>© Mannat Sood | NLP Course Portfolio</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

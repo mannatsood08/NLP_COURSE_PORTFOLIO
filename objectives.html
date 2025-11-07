@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Objectives | NLP Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+    
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">NLP Portfolio</a>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About the Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="objectives.html" class="nav-link active">Learning Objectives</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Units</a>
+                        <div class="dropdown-content">
+                            <a href="unit1.html">Unit 1</a>
+                            <a href="unit2.html">Unit 2</a>
+                            <a href="unit3.html">Unit 3</a>
+                            <a href="unit4.html">Unit 4</a>
+                            <a href="unit5.html">Unit 5</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reflection.html" class="nav-link">Reflection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="achievements.html" class="nav-link">Achievements</a>
+                    </li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Objectives Section -->
+    <section>
+        <div class="container">
+            <h1 class="fade-in">Course Learning Objectives</h1>
+            <p class="fade-in">The curriculum is organized into five distinct units, each addressing specific aspects of Natural Language Processing. Each unit contains defined learning outcomes and comprehensive topic coverage.</p>
+            
+            <div class="objectives-container fade-in">
+                <!-- Unit 1 -->
+                <div class="objective-card">
+                    <div class="objective-header">
+                        <h2>Unit 1: Overview and Word Level Analysis</h2>
+                        <span>9 Hours</span>
+                    </div>
+                    <p>Foundation of NLP concepts and word-level processing techniques</p>
+                    <ul class="objective-goals">
+                        <li>Understand the fundamental concepts and applications of NLP</li>
+                        <li>Master text preprocessing techniques including tokenization, stemming, and lemmatization</li>
+                        <li>Learn feature extraction methods such as TF-IDF and implement POS tagging</li>
+                    </ul>
+                    <a href="unit1.html" class="btn">View Details</a>
+                </div>
+                
+                <!-- Unit 2 -->
+                <div class="objective-card">
+                    <div class="objective-header">
+                        <h2>Unit 2: Syntax Analysis</h2>
+                        <span>9 Hours</span>
+                    </div>
+                    <p>Understanding the structure and grammar of language</p>
+                    <ul class="objective-goals">
+                        <li>Apply Context Free Grammars and parsing techniques to analyze sentence structure</li>
+                        <li>Identify and resolve syntactic ambiguity in natural language</li>
+                        <li>Implement dependency parsing for relationship extraction</li>
+                    </ul>
+                    <a href="unit2.html" class="btn">View Details</a>
+                </div>
+                
+                <!-- Unit 3 -->
+                <div class="objective-card">
+                    <div class="objective-header">
+                        <h2>Unit 3: Semantic and Discourse Analysis</h2>
+                        <span>9 Hours</span>
+                    </div>
+                    <p>Extracting meaning from text and understanding context</p>
+                    <ul class="objective-goals">
+                        <li>Explore word sense disambiguation and lexical semantics</li>
+                        <li>Implement word embedding techniques like Word2Vec and GloVe</li>
+                        <li>Apply discourse segmentation and coreference resolution</li>
+                    </ul>
+                    <a href="unit3.html" class="btn">View Details</a>
+                </div>
+                
+                <!-- Unit 4 -->
+                <div class="objective-card">
+                    <div class="objective-header">
+                        <h2>Unit 4: Language Models</h2>
+                        <span>9 Hours</span>
+                    </div>
+                    <p>Advanced neural architectures for language understanding</p>
+                    <ul class="objective-goals">
+                        <li>Understand and implement RNN and LSTM architectures</li>
+                        <li>Master transformer models including self-attention mechanisms</li>
+                        <li>Fine-tune pre-trained models like BERT for specific NLP tasks</li>
+                    </ul>
+                    <a href="unit4.html" class="btn">View Details</a>
+                </div>
+                
+                <!-- Unit 5 -->
+                <div class="objective-card">
+                    <div class="objective-header">
+                        <h2>Unit 5: NLP Applications</h2>
+                        <span>9 Hours</span>
+                    </div>
+                    <p>Practical implementation of NLP in real-world scenarios</p>
+                    <ul class="objective-goals">
+                        <li>Build chatbots and information extraction systems</li>
+                        <li>Implement text summarization techniques (extractive and abstractive)</li>
+                        <li>Develop question answering systems and machine translation models</li>
+                    </ul>
+                    <a href="unit5.html" class="btn">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.41 15.41L12 10.83L16.59 15.41L18 14L12 8L6 14L7.41 15.41Z" fill="currentColor"/>
+        </svg>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>© Mannat Sood | NLP Course Portfolio</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
